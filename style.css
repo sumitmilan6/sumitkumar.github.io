@@ -113,3 +113,68 @@ nav a {
   border-left: 5px solid #111827;
   border-radius: 12px;
 }
+.hero {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #111827, #1f2937);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero-content {
+  max-width: 850px;
+}
+
+.tagline {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: #93c5fd;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin: 15px 0;
+}
+
+.hero-text {
+  font-size: 22px;
+  color: #d1d5db;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+}
+
+.button.primary {
+  background: #ffffff;
+  color: #111827;
+}
+
+.button.secondary {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  margin-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+  }
+
+  .button.secondary {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+}
