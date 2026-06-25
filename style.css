@@ -221,3 +221,16 @@ nav a:hover{
   transform: translateY(-4px);
   box-shadow: 0 20px 45px rgba(37, 99, 235, 0.45);
 }
+.service-icon {
+  font-size: 34px;
+  margin-bottom: 14px;
+}
+
+.service-card {
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.10);
+}
