@@ -80,3 +80,29 @@ nav a {
   border-radius: 30px;
   font-weight: bold;
 }
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.service-card {
+  background: #f7f9fc;
+  padding: 22px;
+  border-radius: 14px;
+}
+
+.service-card h3 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
