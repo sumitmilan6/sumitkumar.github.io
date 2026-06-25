@@ -202,3 +202,22 @@ nav a:hover{
     margin-top: 12px;
   }
 }
+.floating-hire {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  background: #2563eb;
+  color: white;
+  padding: 14px 24px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  box-shadow: 0 15px 35px rgba(37, 99, 235, 0.35);
+  z-index: 999;
+  transition: 0.3s ease;
+}
+
+.floating-hire:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 45px rgba(37, 99, 235, 0.45);
+}
