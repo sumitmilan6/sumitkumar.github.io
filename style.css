@@ -258,3 +258,20 @@ nav a:hover{
 .project-card strong {
   color: #2563eb;
 }
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.why-card{
+background:white;
+padding:28px;
+border-radius:18px;
+box-shadow:0 15px 35px rgba(0,0,0,.06);
+transition:.3s;
+}
+
+.why-card:hover{
+transform:translateY(-6px);
+}
