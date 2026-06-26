@@ -275,3 +275,34 @@ transition:.3s;
 .why-card:hover{
 transform:translateY(-6px);
 }
+.timeline {
+  border-left: 4px solid #2563eb;
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -39px;
+  top: 6px;
+  width: 16px;
+  height: 16px;
+  background: #2563eb;
+  border-radius: 50%;
+}
+
+.timeline-year {
+  color: #2563eb;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.timeline-content h3 {
+  margin-top: 0;
+}
