@@ -363,3 +363,8 @@ footer {
     color: #9ca3af;
     font-size: 14px;
 }
+.service-icon {
+  font-size: 34px;
+  color: #2563eb;
+  margin-bottom: 16px;
+}
